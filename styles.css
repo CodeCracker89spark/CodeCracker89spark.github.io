@@ -1,0 +1,118 @@
+
+/*.grid{
+	display: grid;
+    border: 2px green solid;
+	grid-template-columns: 20% 50%;
+}*/
+.flex-holder{
+	display:flex;
+	max-height:50px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	width: 30%;
+	height: 90%;
+	flex-direction: column;
+	border: 2px red dotted;
+	/*border-width:*/
+	/*vertical-align: middle;*/
+	border-width: 2px;
+}
+#Intro{
+	color: orange;
+	background-color: blue;
+	justify-content: center;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	
+}
+#job{
+	margin-top: -20px;
+}
+
+.grid {
+  /*border: 2px blue solid;*/
+  height: 150vh;
+  max-width: 100vw;
+  display: grid;
+  
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 15% 85%;
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+}
+
+#Tyler{
+	border-radius: 50%;
+	width: 130px;
+	height: 130px;
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+p{
+	
+	font-family: Times;
+}
+.icons{
+	width: 30px;
+	height:  30px;
+	margin: 5px 10px 0px;
+	padding-top: 10px;
+}
+.year,.left{
+	float: left;
+	width: 20%;
+	margin-top: 20px;
+}
+.year{
+	margin-left: 30px;
+}
+
+
+.experience,.school,.right{
+	float: right;
+	width: 70%;
+}
+.school{
+	font-family: Arial;
+	font-style: italic;
+}
+#Contacts{
+	color: purple;
+	left: 2px;
+	position: relative;
+	background-color: beige;
+	/*width: 300px;*/
+	border-radius: 5px;
+	border: 2px dodgerblue solid;
+}
+
+#main{
+	/*border: 2px yellow solid;
+	
+	max-width: 330px;*/
+	overflow: hidden;
+	margin-right: 10px;
+	}
+ h1,h2{
+	text-align: center;
+ }
+ 
+ .space{
+	 line-height: 7;
+ }
+ hr{
+	 height: 3px;
+	 clear:both;
+	 background-color:black;
+ }
