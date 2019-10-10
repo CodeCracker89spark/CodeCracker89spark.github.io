@@ -11,6 +11,17 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.flex-group{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+ }
+
+.year-box{
+	
+}
 .flex-container{
 	display: flex;
 	
