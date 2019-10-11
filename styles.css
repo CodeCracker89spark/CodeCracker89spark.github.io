@@ -1,27 +1,23 @@
 
-/*.grid{
-	display: grid;
-    border: 2px green solid;
-	grid-template-columns: 20% 50%;
-}*/
+
 .flex-holder{
 	display:flex;
-	max-height:50px;
+	max-height:60px;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .flex-group{
 	display: flex;
-	justify-content: center;
+	
+	
+	/*
 	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	justify-content: center;
+	flex-wrap: wrap;*/
  }
 
-.year-box{
-	
-}
+
 .flex-container{
 	display: flex;
 	
@@ -29,7 +25,8 @@
 	margin-right: auto;
 	align-items: center;
 	width: 30%;
-	height: 90%;
+	margin-top: 10px;
+	height: 80%;
 	flex-direction: column;
 	border: 2px red dotted;
 	/*border-width:*/
@@ -39,13 +36,16 @@
 #Intro{
 	color: orange;
 	background-color: blue;
+	vertical-align: center;
+	
 	justify-content: center;
 	grid-column-start: 1;
 	grid-column-end: span 2;
 	
 }
 #job{
-	margin-top: -20px;
+
+	/*margin-top: -20px;*/
 }
 
 .grid {
@@ -88,9 +88,13 @@ p{
 .year{
 	margin-left: 30px;
 }
-
-
-.experience,.school,.right{
+.school,.experience
+{
+	margin-left: 300px;
+	/*width : 80%;
+	justify-content: center;*/
+}
+.right{
 	float: right;
 	width: 70%;
 }
